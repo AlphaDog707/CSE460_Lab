@@ -1,0 +1,19 @@
+|problem5_18101707
+Clk => Count[3]~reg0.CLK
+Clk => Count[2]~reg0.CLK
+Clk => Count[1]~reg0.CLK
+Clk => Count[0]~reg0.CLK
+reset => Count[3]~reg0.ACLR
+reset => Count[2]~reg0.ACLR
+reset => Count[1]~reg0.ACLR
+reset => Count[0]~reg0.ACLR
+UpOrDown => Count~11.OUTPUTSELECT
+UpOrDown => Count~10.OUTPUTSELECT
+UpOrDown => Count~9.OUTPUTSELECT
+UpOrDown => Count~8.OUTPUTSELECT
+Count[0] <= Count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Count[1] <= Count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Count[2] <= Count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Count[3] <= Count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,11 @@
+|problem5_18101707
+A => F.IN0
+B => F.IN1
+C => H.IN0
+D => H.IN1
+E => comb~1.IN1
+E => comb~0.IN1
+Q <= comb~0.DB_MAX_OUTPUT_PORT_TYPE
+X <= comb~1.DB_MAX_OUTPUT_PORT_TYPE
+
+

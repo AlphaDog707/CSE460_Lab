@@ -1,0 +1,32 @@
+module problem4_18101707(pin,sel,out);
+
+	input [0:15]pin;
+	
+	input [3:0]sel;
+	
+	output reg out;
+	
+	always @(pin,sel)
+	
+		case(sel)
+		
+		    4'b0000: out= pin[0];
+		    4'b0001: out= pin[1];
+		    4'b0010: out= pin[2];
+		    4'b0011: out= pin[3];
+		    4'b0100: out= pin[4];
+		    4'b0101: out= pin[5];
+		    4'b0110: out= pin[6];
+		    4'b0111: out= pin[7];
+		    4'b1000: out= pin[8];
+		    4'b1001: out= pin[9];
+		    4'b1010: out= pin[10];
+		    4'b1011: out= pin[11];
+		    4'b1100: out= pin[12];
+		    4'b1101: out= pin[13];
+		    4'b1110: out= pin[14];
+		    4'b1111: out= pin[15];
+				
+		endcase
+		
+endmodule

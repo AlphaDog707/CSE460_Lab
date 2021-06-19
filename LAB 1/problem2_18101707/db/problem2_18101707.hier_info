@@ -1,0 +1,12 @@
+|problem2_18101707
+in[0] => out~1.OUTPUTSELECT
+in[0] => out~0.OUTPUTSELECT
+in[1] => out~1.DATAA
+in[1] => out~0.DATAA
+in[2] => ~NO_FANOUT~
+in[3] => out~3.OUTPUTSELECT
+in[3] => out~2.OUTPUTSELECT
+out[0] <= out~3.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out~2.DB_MAX_OUTPUT_PORT_TYPE
+
+

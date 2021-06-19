@@ -1,0 +1,11 @@
+|problem5b_18101707
+A => Q~0.IN0
+B => Q~0.IN1
+C => Q~1.IN0
+D => Q~1.IN1
+E => X~0.IN1
+E => Q~3.IN1
+Q <= Q~3.DB_MAX_OUTPUT_PORT_TYPE
+X <= X~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

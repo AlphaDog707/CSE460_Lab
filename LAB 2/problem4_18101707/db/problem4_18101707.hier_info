@@ -1,0 +1,24 @@
+|problem4_18101707
+x[15] => Mux0.IN15
+x[14] => Mux0.IN14
+x[13] => Mux0.IN13
+x[12] => Mux0.IN12
+x[11] => Mux0.IN11
+x[10] => Mux0.IN10
+x[9] => Mux0.IN9
+x[8] => Mux0.IN8
+x[7] => Mux0.IN7
+x[6] => Mux0.IN6
+x[5] => Mux0.IN5
+x[4] => Mux0.IN4
+x[3] => Mux0.IN3
+x[2] => Mux0.IN2
+x[1] => Mux0.IN1
+x[0] => Mux0.IN0
+sel[0] => Mux0.IN19
+sel[1] => Mux0.IN18
+sel[2] => Mux0.IN17
+sel[3] => Mux0.IN16
+y <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
